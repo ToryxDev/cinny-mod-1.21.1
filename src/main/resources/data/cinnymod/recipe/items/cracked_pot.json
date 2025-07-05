@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cinnymod:mud_brick"
+    },
+    {
+      "item": "cinnymod:mud_brick"
+    },
+    {
+      "item": "cinnymod:mud_brick"
+    },
+    {
+      "item": "cinnymod:daub"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cinnymod:cracked_pot"
+  }
+}

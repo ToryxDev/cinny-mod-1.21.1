@@ -1,5 +1,7 @@
 package net.cinny.cinnymod;
 
+import net.cinny.cinnymod.item.ModItemGroups;
+import net.cinny.cinnymod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +13,7 @@ public class CinnyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
