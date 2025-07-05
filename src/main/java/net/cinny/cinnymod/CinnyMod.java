@@ -1,5 +1,6 @@
 package net.cinny.cinnymod;
 
+import net.cinny.cinnymod.block.custom.TreatedBlocks;
 import net.cinny.cinnymod.item.ModItemGroups;
 import net.cinny.cinnymod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,7 @@ public class CinnyMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		TreatedBlocks.registerTreatedBlocks();
+
 	}
 }
