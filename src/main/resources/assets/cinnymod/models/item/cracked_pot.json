@@ -4,6 +4,6 @@
   },
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "cinnymod:item/cracked_pot"
+    "layer0": "cinnymod:item/cracked_pots/cracked_pot"
   }
 }

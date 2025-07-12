@@ -85,7 +85,7 @@
     "minecraft:bamboo_mosaic_slab",
     "minecraft:bamboo_mosaic_stairs",
     "#minecraft:bamboo_blocks",
-    "#cinnymod:treated_blocks",
+    "#cinnymod:mineable_axe",
     "minecraft:chiseled_bookshelf"
   ]
 }

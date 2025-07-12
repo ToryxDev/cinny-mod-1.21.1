@@ -1,6 +1,7 @@
 package net.cinny.cinnymod.item;
 
 import net.cinny.cinnymod.CinnyMod;
+import net.cinny.cinnymod.block.ModBlocks;
 import net.cinny.cinnymod.block.custom.TreatedBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -22,7 +23,18 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACKED_POT);
                         entries.add(ModItems.ILLAGER_LEAD);
                         entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.SILVER_PIGYON);
+                        entries.add(ModItems.VISCERA);
                         entries.add(ModItems.RAW_SILVER);
+                        entries.add(ModBlocks.CANOPIC_POT);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                        entries.add(ModBlocks.CEMETERY_STONE);
+                        entries.add(ModBlocks.MOSSY_CEMETERY_STONE);
+                        entries.add(ModBlocks.CEMETERY_BRICKS);
+                        entries.add(ModBlocks.CEMETERY_PILLAR);
                     }).build());
 
 
