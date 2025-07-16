@@ -1,13 +1,11 @@
 package net.cinny.cinnymod.item;
 
 import net.cinny.cinnymod.CinnyMod;
-import net.cinny.cinnymod.item.custom.DaubItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.SnowballItem;
-import net.minecraft.item.ThrowablePotionItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -15,7 +13,6 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item MUDBALL = registerItem("mudball", new Item(new Item.Settings()));
     public static final Item MUDBRICK = registerItem("mud_brick", new Item(new Item.Settings()));
-    public static final Item DAUB = registerItem("daub", new DaubItem(new Item.Settings()));
     public static final Item CRACKED_POT = registerItem("cracked_pot", new Item(new Item.Settings()));
     public static final Item ILLAGER_LEAD = registerItem("illager_lead", new Item(new Item.Settings()));
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new Item.Settings()));
@@ -26,6 +23,7 @@ public class ModItems {
     public static final Item ALCOHEST = registerItem("alcohest", new Item(new Item.Settings()));
     public static final Item VILLAGER_SPIRIT = registerItem("villager_spirit", new Item(new Item.Settings()));
     public static final Item ILLAGER_RUM = registerItem("illager_rum", new Item(new Item.Settings()));
+    public static final Item THORN = registerItem("thorn", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -36,7 +34,6 @@ public class ModItems {
     private static void customIngredients(FabricItemGroupEntries entries) {
         entries.add(MUDBALL);
         entries.add(MUDBRICK);
-        entries.add(DAUB);
         entries.add(CRACKED_POT);
         entries.add(ILLAGER_LEAD);
         entries.add(SILVER_INGOT);
@@ -46,6 +43,7 @@ public class ModItems {
         entries.add(ALCOHEST);
         entries.add(VILLAGER_SPIRIT);
         entries.add(ILLAGER_RUM);
+        entries.add(THORN);
     }
 
     public static void registerModItems() {
